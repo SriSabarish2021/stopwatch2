@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yuji+Mai&display=swap');
+.container{
+    min-width: 200px;
+    width: 700px;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.timer{
+    font-size: 80px;
+    font-weight: 800;
+    font-family:'Inconsolata';
+    font-stretch: expanded;
+}
+.placement{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    min-width: 500px;
+
+}
+.indibtn{
+    width: 100px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.red{
+    background-color: rgb(255, 41, 41);
+    transition-duration: 0.6s;
+}
+.red:hover{
+    background-color: rgba(255, 90, 8, 0.751);
+    transition-duration: 0.6s;
+}
+.blue{
+    background-color: rgb(15, 219, 255);
+    transition-duration: 0.6s;
+
+}
+.blue:hover{
+    background-color: rgba(8, 144, 255, 0.751);
+    transition-duration: 0.6s;
+}
